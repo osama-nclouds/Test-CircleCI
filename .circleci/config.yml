@@ -18,7 +18,7 @@ jobs:
           name: "Say hello"
           command: |
             apk add --update --no-cache curl py-pip jq make git bash
-            echoo Hello, World!
+            echooo Hello, World!
             git diff-tree --no-commit-id --name-only -r HEAD
       - when:
           condition:
