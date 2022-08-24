@@ -18,7 +18,7 @@ jobs:
           name: "Say hello"
           command: |
             apk add --update --no-cache curl py-pip jq make git bash
-            echso Hello, World!
+            echo Hello, World!
       - when:
           condition:
             on_fail
